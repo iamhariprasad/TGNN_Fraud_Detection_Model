@@ -30,6 +30,19 @@ graph TD
 
 ---
 
+## 📸 Application Screenshots
+
+### 📊 Dashboard & Monitoring
+| **Admin Dashboard Overview** | **Transaction Registry** |
+| :---: | :---: |
+| ![Dashboard Overview](sc/Screenshot%202026-06-28%20153108.png) | ![Transactions List](sc/Screenshot%202026-06-28%20153120.png) |
+
+| **Account Management** | **New Transaction Form** |
+| :---: | :---: |
+| ![Accounts Registry](sc/Screenshot%202026-06-28%20153124.png) | ![New Transaction](sc/Screenshot%202026-06-28%20153128.png) |
+
+---
+
 ## 🚀 Local Setup & Implementation
 
 ### Prerequisite: Database Setup
