@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* Theme Definitions */
+:root {
+  --background-start: #f8fafc;
+  --background-end: #eff6ff;
+  --card-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --border-main: #e2e8f0;
+}
+
+.dark {
+  --background-start: #030712;
+  --background-end: #0f172a;
+  --card-bg: #0f172a;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-main: #1e293b;
+}
+
+/* Base Transition Classes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Global Class Adjustments */
+.dark .bg-gradient-to-br.from-gray-50.to-blue-50 {
+  background: linear-gradient(135deg, #030712 0%, #0f172a 100%) !important;
+}
+
+.dark .bg-white {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+.dark .text-gray-900, .dark .text-gray-800 {
+  color: #f8fafc !important;
+}
+
+.dark .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-gray-600, .dark .text-gray-500, .dark .text-gray-400 {
+  color: #94a3b8 !important;
+}
+
+.dark .border-gray-200, .dark .border-gray-150, .dark .border-gray-100 {
+  border-color: #1e293b !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1e293b !important;
+  color: #cbd5e1 !important;
+}
+
+.dark input, .dark select, .dark textarea {
+  background-color: #030712 !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+.dark .bg-white.rounded-2xl {
+  background-color: #0f172a !important;
+  border: 1px solid #1e293b !important;
+}
+
+.dark .bg-white.rounded-xl {
+  background-color: #0f172a !important;
+  border: 1px solid #1e293b !important;
+}
+
+.dark .bg-slate-50 {
+  background-color: #030712 !important;
+}
+
+.dark header.fixed {
+  background-color: #0f172a !important;
+  border-bottom: 1px solid #1e293b !important;
+}
+
+.dark td.text-gray-900 {
+  color: #f8fafc !important;
+}
+
+.dark tr.hover\:bg-gray-50:hover {
+  background-color: #1e293b !important;
+}

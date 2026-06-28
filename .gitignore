@@ -1,0 +1,57 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Frontend dependencies and production builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# Java / Spring Boot builds and binaries
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+.gradle/
+build/
+
+# Database files
+data/fraud_detection*
+*.mv.db
+*.trace.db
+
+# IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.user
+.project
+.classpath
+.settings/
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs and local agent folders
+*.log
+.gemini/
+.agents/
