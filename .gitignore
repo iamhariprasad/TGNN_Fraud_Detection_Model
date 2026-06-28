@@ -1,61 +1,47 @@
-# Python virtual environments and caches
-.venv/
-venv/
-env/
-ENV/
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.ipynb_checkpoints/
-
-# Frontend dependencies and production builds
-node_modules/
-dist/
-dist-ssr/
-*.local
-.eslintcache
-
-# Java / Spring Boot builds and binaries
-target/
-*.class
-*.jar
-*.war
-*.ear
-.mvn/
-.gradle/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Database files
-data/fraud_detection*
-*.mv.db
-*.trace.db
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# GNN model weights, checkpoints, and training metrics
-models/
-*.pth
-
-# IDE settings
+# IDE
 .idea/
 .vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.swp
-*.user
-.project
-.classpath
-.settings/
+*.swo
 
-# OS specific files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-.DS_Store
+# Model files
+*.pth
+*.h5
+models/
 
-# Logs and local agent folders
-*.log
-.gemini/
-.agents/
+# Data
+*.csv
+*.json
+data/
