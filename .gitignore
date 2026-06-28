@@ -32,6 +32,10 @@ data/fraud_detection*
 *.mv.db
 *.trace.db
 
+# GNN model weights, checkpoints, and training metrics
+models/
+*.pth
+
 # IDE settings
 .idea/
 .vscode/
